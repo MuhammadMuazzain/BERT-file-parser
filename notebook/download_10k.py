@@ -11,6 +11,7 @@ def download_10k(url, save_path):
         "User-Agent": "NLPFinalProject/1.0 (christopherli@nyu.edu)"  # Replace with your email
     }
     # response = requests.get(url, headers=headers)
+    # response = requests.get(url, headers=headers)
     response = requests.get(url, headers=headers)
 
     if response.status_code == 200:
