@@ -24,7 +24,9 @@ def download_10k(url, save_path):
     # response = requests.get(url, headers=headers)
     # response = requests.get(url, headers=headers)
     # response = requests.get(url, headers=headers)
+    # response = requests.get(url, headers=headers)
     response = requests.get(url, headers=headers)
+    
 
     if response.status_code == 200:
         os.makedirs(os.path.dirname(save_path), exist_ok=True)
