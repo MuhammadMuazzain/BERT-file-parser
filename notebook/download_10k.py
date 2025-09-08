@@ -30,6 +30,7 @@ def download_10k(url, save_path):
     # response = requests.get(url, headers=headers)
     # response = requests.get(url, headers=headers)
     # response = requests.get(url, headers=headers)
+    # response = requests.get(url, headers=headers)
     response = requests.get(url, headers=headers)
     
 
